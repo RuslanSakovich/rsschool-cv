@@ -5,119 +5,134 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV-RuslanSakovich</title>
+  <link rel="icon" href="./img/fv.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">q
 </head>
 
 <body>
-  <nav class="main-navigation">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="#contacts">Contacts</a>
-      </li>
-      <li class="nav-item">
-        <a href="#Summary" class="nav-link">Summary</a>
-      </li>
-      <li class="nav-item">
-        <a href="#scills" class="nav-link">Scills</a>
-      </li>
-      <li class="nav-item">
-        <a href="#Code" class="nav-link">Code</a>
-      </li>
-      <li class="nav-item">
-        <a href="#Projects" class="nav-link">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a href="#Courses" class="nav-link">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a href="#Education" class="nav-link">Education</a>
-      </li>
-      <li class="nav-item">
-        <a href="#English" class="nav-link">English</a>
-      </li>
-    </ul>
-  </nav>
+  <header class="main-header">
+   <container>
+      <nav class="main-navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#scills" class="nav-link">Scills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Code" class="nav-link">Code</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#English" class="nav-link">English</a>
+          </li>
+        </ul>
+      </nav>
+   </container>
+
+</header>
 
   <main>
-    <article class="profile">
-      <img src="../rsschool-cv/user-photo.jpg" alt="user-photo" width="250" height="300">
-      <div class="user-infomation">
-        <h1>RUSLAN SAKOVICH</h1>
-        <p class="profile-text">junior front-end developer</p>
-      </div>
-    </article>
+   <container>
 
-    <section class="Contacts" id="contacts">
-      <h2 class="contacts" >Contacts</h2>
-      <a href="mailto:rufil1.rs@gmail.com" class="mailto">e-mail:rufil1.rs@gmail.com</a>
-      <a href="tel:+375336632942">tel: +375 (33) 663-29-42</a>
-    </section>
-
-    <section class="Summary" id="Summary">
-      <h2 class="about">Summary</h2>
-      <p class="about">My goal is to finally systematize and expand my knowledge in the field of programming.
-        I already have a little experience in site layout, there are three sites in the portfolio and the portfolio site itself.
-      </p>
-    </section>
-
-    <section class="Scills" id="scills">
-      <h2 class="scills-title">Scills</h2>
-
-      <p class="scills-text">Web-development<span>HTML5,CSS,JavaScript</span></p>
-      <p class="scills-text">Version control<span>GIT</span></p>
-      <p class="scills-text">Graphics<span>Figma, Photoshop</span></p>
-    </section>
-
-    <section class="Code" id="Code">
-      <h2 class="section-title">Code</h2>
-      <code>
-        let form = document.querySelector('form');
-          form.onsubmit = function() {
-          console.log('Форма отправлена!');
-        };
-      </code>      
-    </section>
-
-    <section class="Projects" id="Projects">
-      <h2 class="section-title">Project</h2>
-      <ul class="courses-list">
-        <li class="courses-item">
-          <a href="https://ruslansakovich.github.io/Novosti_Kultury/" class="courses-link">Новости культуры
-          </a>
-        </li>
+      <article class="profile">
+        <img src="../rsschool-cv/user-photo.jpg" alt="user-photo" width="250" height="300">
+        <div class="user-infomation">
+          <h1>RUSLAN SAKOVICH</h1>
+          <p class="profile-text">junior front-end developer</p>
+        </div>
+      </article>
+  
+      <section class="Contacts" id="contacts">
+        <h2 class="contacts" >Contacts</h2>
+        <a href="mailto:rufil1.rs@gmail.com" class="mailto">e-mail:rufil1.rs@gmail.com</a>
+        <a href="tel:+375336632942">tel: +375 (33) 663-29-42</a>
+      </section>
+  
+      <section class="Summary" id="Summary">
+        <h2 class="about">Summary</h2>
+        <p class="about">My goal is to finally systematize and expand my knowledge in the field of programming.
+          I already have a little experience in site layout, there are three sites in the portfolio and the portfolio site itself.
+        </p>
+      </section>
+  
+      <section class="Scills" id="scills">
+        <h2 class="scills-title">Scills</h2>
+  
+        <p class="scills-text">Web-development<span>HTML5,CSS,JavaScript</span></p>
+        <p class="scills-text">Version control<span>GIT</span></p>
+        <p class="scills-text">Graphics<span>Figma, Photoshop</span></p>
+      </section>
+  
+      <section class="Code" id="Code">
+        <h2 class="section-title">Code</h2>
+        <code>
+          let form = document.querySelector('form');
+            form.onsubmit = function() {
+            console.log('Форма отправлена!');
+          };
+        </code>      
+      </section>
+  
+      <section class="Projects" id="Projects">
+        <h2 class="section-title">Project</h2>
+        <ul class="courses-list">
+          <li class="courses-item">
+            <a href="https://ruslansakovich.github.io/Novosti_Kultury/" class="courses-link">Новости культуры
+            </a>
+          </li>
+          
+          <li class="courses-item">
+            <a href="https://ruslansakovich.github.io/Nerds/index.html" class="courses-link">Nerds
+            </a>
+          </li>
+        </ul>
+      </section>
+  
+      <section class="courses" id="Courses">
+        <h2 class="section-title">Courses</h2>
+        <p class="courses-paragraph">HTML:<span>Basic HTML and CSS</span></p>
         
-        <li class="courses-item">
-          <a href="https://ruslansakovich.github.io/Nerds/index.html" class="courses-link">Nerds
-          </a>
+      </section>
+  
+      <section class="education" id="Education">
+        <h2 class="section-title">Education</h2>
+        <p class="education-paragraph">SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL</p>
+      </section>
+  
+      <section class="#English" id="English">
+        <h2 class="section-title">English</h2>
+        <p class="inglish-paragraph">A2 - basic users of the language</p>
+      </section>
+  
+    </main>
+   </container>
+
+  <footer class="cv-footer">
+    <container>
+      <ul class="footer-list">
+        <li class="footer-link">
+          <p class="copyrite">&copy; 2022</p>
+          <a href="https://github.com/RuslanSakovich" class="github-link">Ruslan Sakovich</a>
         </li>
       </ul>
-    </section>
-
-    <section class="courses" id="Courses">
-      <h2 class="section-title">Courses</h2>
-      <p class="courses-paragraph">HTML:<span>Basic HTML and CSS</span></p>
-      
-    </section>
-
-    <section class="education" id="Education">
-      <h2 class="section-title">Education</h2>
-      <p class="education-paragraph">SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL</p>
-    </section>
-
-    <section class="#English" id="English">
-      <h2 class="section-title">English</h2>
-      <p class="inglish-paragraph">A2 - basic users of the language</p>
-    </section>
-
-  </main>
-  <footer class="cv-footer">
-    <ul class="footer-list">
-      <li class="footer-link">
-        <p class="copyrite">&copy; 2022</p>
-        <a href="https://github.com/RuslanSakovich" class="github-link">Ruslan Sakovich</a>
-      </li>
-    </ul>
-
-    <a href="https://rs.school/js/" class="rs-link"><img src="../rsschool-cv/img/rs_school_js.svg" alt="course-logo" width="150" height="100"></a>
+  
+      <a href="https://rs.school/js/" class="rs-link"><img src="../rsschool-cv/img/rs_school_js.svg" alt="course-logo" width="150" height="100"></a>
+    </container>
   </footer>
   
 </body>

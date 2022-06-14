@@ -1,3 +1,25 @@
 html {
   scroll-behavior: smooth; 
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  border: 1px solid red;
+
+}
+
+main{
+  border: 1px solid red;
+}
+
+.cv-footer {
+  border: 1px solid red;
+}
