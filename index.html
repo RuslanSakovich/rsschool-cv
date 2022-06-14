@@ -8,12 +8,12 @@
   <link rel="icon" href="./img/fv.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">q
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="main-header">
-   <container>
+   <div class="container">
       <nav class="main-navigation">
         <ul class="nav-list">
           <li class="nav-item">
@@ -42,12 +42,12 @@
           </li>
         </ul>
       </nav>
-   </container>
+   </div>
 
 </header>
 
   <main>
-   <container>
+   <div class="container">
 
       <article class="profile">
         <img src="../rsschool-cv/user-photo.jpg" alt="user-photo" width="250" height="300">
@@ -58,24 +58,35 @@
       </article>
   
       <section class="Contacts" id="contacts">
-        <h2 class="contacts" >Contacts</h2>
-        <a href="mailto:rufil1.rs@gmail.com" class="mailto">e-mail:rufil1.rs@gmail.com</a>
-        <a href="tel:+375336632942">tel: +375 (33) 663-29-42</a>
+        <h2 class="section-title" >Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item"><a href="mailto:rufil1.rs@gmail.com" class="mailto">e-mail:rufil1.rs@gmail.com</a></li>
+          <li class="contacts-item">
+            <a href="tel:+375336632942">tel: +375 (33) 663-29-42</a></li>
+        </ul>
+        
+        
       </section>
   
       <section class="Summary" id="Summary">
-        <h2 class="about">Summary</h2>
+        <h2 class="section-title">Summary</h2>
         <p class="about">My goal is to finally systematize and expand my knowledge in the field of programming.
           I already have a little experience in site layout, there are three sites in the portfolio and the portfolio site itself.
         </p>
       </section>
   
       <section class="Scills" id="scills">
-        <h2 class="scills-title">Scills</h2>
-  
-        <p class="scills-text">Web-development<span>HTML5,CSS,JavaScript</span></p>
-        <p class="scills-text">Version control<span>GIT</span></p>
-        <p class="scills-text">Graphics<span>Figma, Photoshop</span></p>
+        <h2 class="section-title">Scills</h2>
+          <ul class="scills-list">
+            <li class="scills-item"> <p class="scills-text">Web-development<span>HTML5,CSS,JavaScript</span>
+            </p>
+           </li>
+                <li class="scills-item"><p class="scills-text">Version control<span>GIT</span>
+            </p></li>
+                <li class="scills-item"><p class="scills-text">Graphics<span>Figma, Photoshop</span>
+            </p>
+          </li>
+         </ul>       
       </section>
   
       <section class="Code" id="Code">
@@ -90,8 +101,8 @@
   
       <section class="Projects" id="Projects">
         <h2 class="section-title">Project</h2>
-        <ul class="courses-list">
-          <li class="courses-item">
+        <ul class="Projects-list">
+          <li class="Projects-item">
             <a href="https://ruslansakovich.github.io/Novosti_Kultury/" class="courses-link">Новости культуры
             </a>
           </li>
@@ -123,7 +134,7 @@
    </container>
 
   <footer class="cv-footer">
-    <container>
+    <div class="container">
       <ul class="footer-list">
         <li class="footer-link">
           <p class="copyrite">&copy; 2022</p>
@@ -132,7 +143,7 @@
       </ul>
   
       <a href="https://rs.school/js/" class="rs-link"><img src="../rsschool-cv/img/rs_school_js.svg" alt="course-logo" width="150" height="100"></a>
-    </container>
+    </div>
   </footer>
   
 </body>
