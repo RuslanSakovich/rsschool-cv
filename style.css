@@ -19,6 +19,7 @@
   }
   
   .container {
+    display: flex;
     width: 992px;
     margin: 0 auto;
   }
@@ -94,9 +95,10 @@
   
   .promo-photo {
     width: 150px;
-    height: 150px;
+    height: 200px;
     align-items:center;
-    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
   
   .name {
