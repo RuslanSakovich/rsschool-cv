@@ -19,7 +19,6 @@
   }
   
   .container {
-    display: flex;
     width: 992px;
     margin: 0 auto;
   }
@@ -148,6 +147,7 @@
     min-height: 100px;
     background-color: #83b769;
   }
+
   
   .footer-list {
     margin: 0;
