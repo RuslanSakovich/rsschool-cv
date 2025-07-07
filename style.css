@@ -99,13 +99,15 @@
     align-items:center;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    transition: 0.5s;
+     transition: 0.5s;
   }
 
   .promo-photo:hover {
-    transform: scale(1.2);
-    transition: 0.7s ease;
+    transform: scale(1.3);
+    transition: 0.5s;
   }
+
+  
   
   .name {
     text-align: center;
@@ -155,6 +157,16 @@
     transform: scale(1.7);
     transition: 1s;
   }
+
+  .works-img {
+    transition: 0.7s;
+  }
+
+  .works-img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+  }
+  
   
   
   /* footer */
